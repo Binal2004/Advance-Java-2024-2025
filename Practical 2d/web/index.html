@@ -1,0 +1,29 @@
+
+<html>
+    <head>
+        <title>Upload and Download File</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Binal Doshi - 530033220057</div>
+        <h1> File Upload Application </h1>
+        <form>
+            <form action="Fileupload" 
+                  method="post" enctype="multipart/form-data">
+        Select File to upload : <input type="file" name ="myfile">
+        <br>
+        <br>
+        Destination: <input type="text" name="destination">
+        <input type="submit" value="Upload File" name="upload">
+        </form>
+        <hr>
+        <hr>
+        <hr>
+        <hr>
+        <br/>
+        <h1> File Download Application </h1>
+        <h4>Click <a href="FileDownloadServlet?filename=Preference.pdf">Preference</a></h4>
+        <h4>Click <a href="FileDownloadServlet?filename=C++ Notes.pdf">C++ Notes</a></h4>
+    </body>
+</html>
